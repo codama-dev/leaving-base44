@@ -1,0 +1,15 @@
+{
+  "name": "leaving-base44",
+  "version": "1.0.0",
+  "description": "A guide to taking a Base44 app off Base44, and a checker that lists what an export still needs Base44's servers for.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "bin": { "base44-export-check": "checker/cli.mjs" },
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "check": "node checker/cli.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": ["base44", "base44-export", "base44-migration", "export", "migration", "self-host", "vibe-coding"]
+}

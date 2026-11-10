@@ -1,0 +1,2 @@
+// An order
+{ "name": "Order", "type": "object", "properties": { "total": { "type": "number" } } }
